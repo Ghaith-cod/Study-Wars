@@ -1,0 +1,91 @@
+/***********Start My Framework***********/
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    height: 2000px;
+}
+
+.main-color {
+    color:
+}
+
+.main-bg {
+    background-color:
+}
+
+.second-color {
+    color:
+}
+
+.second-bg {
+    background-color:
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+/****************************************/
+
+header {
+    background-image: url(../imgs/edu1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 80vh
+}
+
+.social-media {
+    float: left
+}
+
+#up {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #444;
+    color: yellow;
+    line-height: 50px;
+    text-align: center;
+    font-size: 40px;
+    border: 1px solid yellow;
+    position: fixed;
+    z-index: 99999999999999999;
+    bottom: 5px;
+    right: 5px;
+}
+
+.active {
+    background-color: black
+}
+
+#more1 {
+    display: none
+}
+
+#more2 {
+    display: none
+}
+
+#more3 {
+    display: none
+}
+
+#str {
+    text-shadow: 5px 5px 1px black;
+
+}
+
+#str .edu {
+    color: #e8ca25
+}
